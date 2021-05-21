@@ -1,0 +1,142 @@
+<HTML>
+<HEAD>
+	<TITLE>ZACARIAS LILIANA</TITLE>
+<br>
+	<style>
+#colorbonito{
+background-color:#F5D4E9;
+Font-size:12px;
+font-family:"Candara","HelveticaNeue","Helvetica Neue", Helvetica, Arial, sans-sserif;
+}
+	/*Indice*/
+#Indice{
+ text-align:center;
+}
+#Indice ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+ display:inline-block;
+}
+	/*Items del indice*/
+#Indice ul li {
+ background-color:#FFFFFF;
+}
+	/*Enlaces del menu*/
+#Indice ul a {
+ display:block;
+ color:#000;
+ text-decoration:none;
+ font-weight:400;
+ font-size:15px;
+ padding:10px;
+ font-family:"HelveticaNeue","Helvetica Neue", Helvetica, Arial, sans-sserif;
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+	/*Items del Indice*/
+#Indice ul li {
+ position:relative;
+ float:left;
+ margin:0;
+ padding:0;
+}
+	/*Efectos al pasar el raton por el items del Indice*/
+#Indice ul li:hover {
+  background:#F8DAFF;
+}
+	/*Indice desplegable*/
+#Indice ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:#eee;
+ padding:0;
+}
+	/*Items del menu desplegable*/
+#Indice ul ul li {
+ float:none;
+ width:150px;
+}
+	/*Enlace de los items del menu desplegable*/
+#Indice ul ul a {
+ line-height:120%;
+ padding:10px 15px;
+}
+	/*Items del menu desplegable al pasar el raton*/
+#Indice ul li:hover > ul {
+ display:block;
+}
+	</style>
+</HEAD>
+<BODY Background="mar.jpg">
+<nav id="Indice">
+<UL>
+<li> <a href="index.html">PAGINA PRINCIPAL</a><UL>
+<li><a href="cuestionario.html">Cuestionario de apredizaje</a></li>
+<li><a href="sugerencias.html">Sugerencias</a></li>
+</UL></li>
+<li> <a href="Pagina2.html">Sistema nerviso</a></li>
+<li> <a href="Pagina3.html">Sistema respiratorio</a></li>
+<li> <a href="Proyecto final.html">Sistema digestivo</a>
+</nav>
+
+<p align="center"><font size="15" face="Impact">¡Cuanto aprendi!</font></p>
+<font size=:"6" face="Arial Narrow">
+<form action="mailto:zacari1819@outlook.com" method="post" enctype="texte/plain">
+<table border=1 align=center bgcolor=#F8DAFF>
+	<tr>
+	<td><font size="4"><b>Nombre completo:</b></font></td>
+	<td><input type=text name="NOMBRE" ROWS=1 COLS=60></td>
+	</tr>					
+	<tr>
+	<td><font size="4"><b>¿En cual de los sistemas se encuentran los pulmones?</b></font></td>
+	<td><SELECT ID="colorbonito" NAME="sistemas">
+	<OPTION>Sistema Digestivo
+	<OPTION>Sistema Respiratorio
+	<OPTION>Sistema Nervioso
+	</SELECT></td>
+	</tr>
+	<tr>
+	<td><font size="4"><b>En el sistema digestivo,¿donde empieza el procesos de digestion?</b></font></td>
+	<td><input type=text name="donde" ROWS=1 COLS=200></td>
+	</tr>
+	<tr>
+	<td><font size="4"><b>¿Que funcion tiene el sistema respiratorio</b></font></td>
+	<td><input type=text name="que" ROWS=1 COLS=10></td>
+	</tr>
+	<tr>
+	<td><font size="4"><b>¿Cual es la funcion de la medula espinal?</b></font></td>
+	<td><input type=text name="funcion" ROWS=1 COLS=10></td>
+	</tr>
+	<tr>
+	<td><font size="4"><b>¿Que sistema controla el cuerpo?</b></font></td>
+	<td><SELECT ID="colorbonito" NAME="EstadoCivil">
+	<OPTION>Sistema Digestivo
+	<OPTION>Sistema Respiratorio
+	<OPTION>Sistema Nervioso
+	</SELECT></td>
+	</tr>
+	<tr>
+	<td><font size="4"><b>¿En que consiste el sistema digestivo?</b></font></td>
+	<td><input type=text name="sistema" ROWS=1 COLS=10></td>
+	</tr>
+	<tr>
+	<td><font size="4"><b>¿Que involugra el sistema respiratorio?</b></font></td>
+	<td><input type=text name="Edad" ROWS=1 COLS=40></td></font>
+	<tr>
+	<td><font size="4"><b>Fecha de realizado</b></font></td>
+	<td><input type=date name="fdnacimiento"></td>
+	<tr>
+</table>
+	<center>
+	<td><input type="submit" value="Enviar datos"> </td>
+	<td><input type="reset" value="Borrar"> </td>
+	</center>
+</form>	
+</BODY>
+<FOOTER>
+<p align="left"><audio src="city.mp3" controls></audio></p>
+</FOOTER>
+</HTML>
